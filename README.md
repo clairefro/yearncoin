@@ -47,3 +47,5 @@ To verify, add etherscan plugin for hardhat
 verify to get contract source code to show up on etherscan
 
 `npx hardhat verify --network ropsten <contract address>`
+
+(contract address: `0x7eA264dDf584c7fEb93CCE1C37A92fEE7a4C2A9c`)
