@@ -15,7 +15,7 @@
   },
   "scripts": {
     "compile": "npx hardhat compile",
-    "deploy": "npx hardhat run scripts/deploy.js --network ropsten"
+    "deploy": "npm run compile && npx hardhat run scripts/deploy.js --network ropsten"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.3.2",
